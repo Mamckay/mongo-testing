@@ -16,6 +16,7 @@ const app = express();
 app.use(express.json());
 
 // GET requests to /restaurants => return 10 restaurants
+ 
 app.get('/restaurants', (req, res) => {
   Restaurant
     .find()
