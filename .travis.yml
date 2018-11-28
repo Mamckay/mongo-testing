@@ -4,10 +4,9 @@ services:
 - mongodb
 deploy:
   provider: heroku
-  edge: true
   api_key:
-    secure: qa7aBWAdbMrJw0aFMkqEOg 
-    app: polar-thicket-90416
+    secure: FCC1Gjcc/xNCfgF49/M7X01gKJVNj52mOWP2UyF/waL3sysstQfP6BQEh1nqQOSkFek8ZwXO8zADWNsx00NUdR6qPG9/BYzRy7Mh422y2xPgfeJUVJGDMFKM+4dc59D1RCop9EGSJAnkHrpqavKb9kC7qIt33q6ILjxQe6UE7FSEWOUIUmsjQQuOZSwL9jIvJ8pAjFx8I4zKZFTtYlu5OCsuV/D/fDNshxYaODF9skfMZj/fPkao7yleqJY4hJVKeZXqsfXoFOJbuEzd80PugRsLGlhpUMT/FwRYjf4L6iS7tyMbbRLuOeG+tBwD2eHHjOi0Lt5K/dGM4qiC7Task/Hhx/7haqB3h8hkG52KasMvs3Zgy4cluDuXuIUjL/03HynQvqhH1OAEYbSFyVvWXAKa1i2Iiuld41A4suXuzM3o3i1sDGR9k9q6lAk7rLPUkGuck09wjR8TSDFX1kvUdLfRBIkmU3oOBJU/kbLp6AusEFDNNbt3qMhz5JGk9FY3VIJlWrBNGgJC9bMXpj/eau0RK7d4UWtjDP9U65Yqvn6xIs4vMm10weHbJSWZRUehYYoNAz34Pudd0J57cW1+Q0GL0ALoUf7ss1XYrxrGZbKfe65YnbdTwb/sWStnu+kh1lAOQ2TMvOLJWiZNxISrjdyStsrWMmgph6IFhX1KwHI=
+  app: polar-thicket-90416
   on:
     repo: Mamckay/mongo-testing
     branch: feature/with-tests
