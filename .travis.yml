@@ -2,3 +2,11 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: Ep5MydCw0Y4bNPR5vuyCMLGR7Nhic/+Adb23z3l+J0uHOYK394Nf0AWpunGfWCU4xZlUcCCVICn0us2YEnDiqyfcHphDzJXiHkH3Tj4/USWkuq7uTinVyY8e7q/p7d1TH0XdR8RLHOI5ekydLKtJGsMwBeI+/Ky41kRoukw6qyJy00WP+wSgHTlNS4gAPFmS4ttHCTLQ90NyBSSPw7KlfY1g/Kge2YQYNx8E4u9mWio+ffxdDpUtIiO4Kq2NawN+Zm83kTlpRZ8ti4e+jTWDVnZiYX3SRi9KhkB7Ya2FS9mTxwFB07dRvrH+uaqyYtOiviKAhkHogmwNi5kHrF5O7ZW9ItTQ7siurRLQo+3KcsHIUj4WvlzLK0x7k9LatSIN+Tz5F9HauJ11cv0DTrcZ7xD+5hOeGQsMxeR/op5kjWJz0EV5aG0M6rqIha/NMaQ2WTgpXUXXXVaY92V+9aXih64AISPBCYi+X9yks9+DQSxnq4o6zAM8pl/yeal1qgqKFZa+oIi1i5DqhZvOB8UM1hZdHTt2fJIDZ2RhX5rQWvpPqi1EZFrUoleU53usqu+WA2en4nEjfJlernH5Gnt46YoSSdYaIjLXqXD7nDXWVkRAKUE3JKF6ESpL90HdjhmHIARcba+A6Q9T4UV9atLp0N8q1Tt4gfhL/YIxQJ7K9fc=
+  app: https://polar-thicket-90416.herokuapp.com/
+  on:
+    repo: Mamckay/mongo-testing
+    branch: feature/with-tests
